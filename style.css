@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    display: inline;
+    font-family: 'Lobster', cursive;
+    font-size: xx-large;
+}
+#logo{
+    display: inline;
+    float: left;
+    width: 50px;
+    margin-right: 10px;
+}
+#icons {
+    position: relative;
+    list-style: none;
+    display: flex;
+    float: right;
+    margin:0px;
+    /* position: absolute; */
+    left: 1px;
+    bottom: 90px;
+}
+header p{
+    clear: both;
+   display: inline; 
+   position: relative;
+top:20px;
+right:110px;
+letter-spacing: 0px;
+}
+header{
+    width: 100%;
+}
+h2{
+    font-family: 'Anton', sans-serif;
+    font-size: 2pc;
+}
+#pizza{
+    width: 100%;
+    margin-right: 20px;
+}
+#print{
+    float: right;
+}
+#date {
+    position: relative;
+    bottom: 25px;
+    margin: 0;
+    padding: 0;
+    font-size: .7pc;
+    color: gray;
+}
+
+#para{
+    text-indent: 25px;
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+#recipe{
+    background-image: url('img/list-bg.png') ;
+    background-size: cover;
+    height: 380px;
+    font-size: 30px;
+    padding: 20px;
+    
+}
+
+ul{
+    list-style: none;
+}
+#ul2{
+    float: right;
+    position: relative;
+    bottom: 280px;
+}
+button{
+    background-color: #ce00009c;
+    color: white;
+    float: right;
+    position: relative;
+    left: 500px;
+    padding: 30px;
+}
+
+#vanessa img{
+    display: inline;
+    float: left;
+    width: 100px;
+    margin-right: 20px;
+
+}
+
+h4{
+    position: relative;
+    left: 10px;
+    bottom:20px ;
+    float: left;
+    width: 50px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+#vanessa p{
+    clear: both;
+    display: inline; 
+    position: relative;
+ top:60px;
+ right:60px;
+ letter-spacing: 0px;
+font-size: 25px;
+}
+
+#vanessa {
+    height: 300px;
+    width: 100%;
+    font-size: large;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+footer{
+    text-align: center;
+}
+
+
+#print-img{
+    width: 30px;
+}
+#print{
+    float: right;
+}
+#print p{
+    color: gray;
+    float: right;
+    position: relative;
+    bottom: 15px;
+}
+
+.border {
+    background: gray repeating-linear-gradient(-45deg, transparent, transparent 1px, #fff 1px, #fff 7px, transparent 7px, transparent 8px, #fff 8px, #fff 14px);
+    background-size: 10px 10px; /* equal to last color stop point / sqrt(2) - 14 / 1.414 */
+    height: 20px;
+    margin-top: 50px;
+  }
+
+  #wifi{
+      margin-left: 5px;
+  }
